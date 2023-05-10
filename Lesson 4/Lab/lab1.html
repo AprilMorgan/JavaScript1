@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>It's the number guessing game!</title>     
+  </head>
+  <body>
+    <h1>Guess the number!</h1>
+    <h4>Please enter a low number and a high number to start.</h4>
+    <h6>(Select numbers between 1-100)</h6>
+    <div id="output"></div>
+   
+    <form name="guessForm" onsubmit= "return submitData()">
+        <p>Low Number: <input type="text" name="min" id="min"></p>
+        <p>High Number:<input type="text" name="max" id="max"></p><br>
+        <button type ="submit">Play!</button>
+    </form>
+    <script src = "lab1.js"></script>
+  </body>
+</html>

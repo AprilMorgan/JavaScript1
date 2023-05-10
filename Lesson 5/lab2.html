@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Investment Calculator</title> 
+        <script src = "lab2.js"></script>
+        <style src = "lab2.css"></style>    
+  </head>
+  <body>
+    <h1>Investment Calculator</h1>
+    <div id="output"></div>
+    <form name="invCal" onsubmit="getData (); return false ">
+        <p>Initial Balance: <input type="value" name="balance" id="balance"></p>
+        <p>Annual Interest rate (use decimal):<input type="value" name="rate" id="rate"></p>
+        <p>Duration (in months):<input type="value" name="months" id="months"></p>
+        <button type ="submit">Calculate Value</button>
+    </form>
+  </body>
+</html>
